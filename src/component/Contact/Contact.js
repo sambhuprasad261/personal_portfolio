@@ -51,7 +51,7 @@ const Contact = () => {
                 <div className="details">
                   <h1>Sambhu Prasad</h1>
                   <p>Btech,ECE</p>
-                  <p>Connect with me via and call in to my account.</p> <br />
+                  <p>Contact with me via and call in to my account.</p> <br />
                   <p>Phone: +91 9618307587</p>
                   <p>Email: sambhuprasad261@gmail.com</p> <br />
                   <span>FIND WITH ME</span>

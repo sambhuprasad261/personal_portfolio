@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 import "./header.css"
 const Header = () => {
-  // fixed Header
+  // fixed Header when scroll header at top position
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header")
     header.classList.toggle("active", window.scrollY > 100)
   })
-  // Toogle Menu
+  // Toogle Menu (usta)
   const [Mobile, setMobile] = useState(false)
   return (
     <>

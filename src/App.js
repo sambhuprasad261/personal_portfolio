@@ -4,7 +4,7 @@ import Header from './component/Head/Header'
 import Home from './component/home_page/Home'
 import Resume from './component/Resume_page/Resume.js'
 import Contact from './component/Contact/Contact'
-import Footer from './component/footer'
+import Footer from './component/footer/footer'
 export const App = () => {
   return (
     <div>

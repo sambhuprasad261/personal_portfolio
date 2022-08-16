@@ -19,7 +19,7 @@ const ResumeApi = [
       id: 3,
       category: "education",
       year: "Sri Venkateswara College of Engineering (2019 - 2023) ",
-      title: "Tips For Personal Portfolio",
+      title: "B.TECH",
       // desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
       rate: "8.0/10 ",
     },

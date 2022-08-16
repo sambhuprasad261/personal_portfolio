@@ -11,12 +11,12 @@
 }
 
 .hero h1 span {
-  color: #00d9ffb7;
+  color: #FF3700;
 }
 .hero h2 {
   font-size: 50px;
   font-weight: bold;
-  color: #00d9ffb7;
+  color: #FF3700;
 }
 .hero h2 span {
   color: black;
@@ -82,6 +82,7 @@
   }
 
   .hero .right_img {
+    margin-left: -10%;
     bottom: 20%;
     width: 110%;
     height: 75%;
@@ -89,10 +90,11 @@
   }
   .hero .right_img img {
     position: relative;
-    top: 0%;
-    left: 55%;
+    margin-top: 0%;
+    left: 50%;
     transform: translateX(-50%);
-    bottom: 30%;
+    margin-bottom: 40%;
+    padding: 6%;
   }
 }
 @media (max-width: 1400px) {
@@ -105,14 +107,15 @@
     bottom: 50%;
     width: 110%;
     height: 75%;
-    
+    border-radius: 50%;
+    margin-left: -15%;
   }
   .hero .right_img img {
     position: relative;
-    top: 0%;
+    margin-top: 0%;
     left: 55%;
     transform: translateX(-50%);
-    bottom: 20%;
+    margin-bottom: 20%;
   }
 }
 
@@ -130,13 +133,13 @@
   .hero .right_img {
     width: 100%;
     height: 50%;
-    
+    margin-left: 5%;
   }
   .hero .right_img img {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0%;
-    top: 50%;
+    margin-bottom: 15%;
+    margin-top: 0%;
   }
 }
